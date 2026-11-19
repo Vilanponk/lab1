@@ -1,0 +1,11 @@
+name: workflow
+
+on: push
+
+jobs:
+  showMessage:
+    runs-on: ubuntu-latest
+    steps:
+    -  name: Showing a message
+       run: echo "its working"
+    
